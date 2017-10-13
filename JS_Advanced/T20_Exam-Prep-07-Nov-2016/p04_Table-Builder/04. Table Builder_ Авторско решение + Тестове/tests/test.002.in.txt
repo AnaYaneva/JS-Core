@@ -1,0 +1,27 @@
+﻿document.body.innerHTML = `<div class="root"></div>`;
+
+let builder = result('.root');
+
+builder.createTable(['Song','Artist']);
+builder.fillData([
+    ['Tribute', 'Tenacious D'],
+    ['And so you code', 'Rap Cover'],
+    ['Belzeboss', 'Tenacious D'],
+    ['Commissar','Savatage']
+]);
+
+let table = $('.root table');
+let rows = table.find('tr');
+let cells = rows.find('td');
+
+expect(cells.eq(0).text()).to.equal('Tribute','Incorrect song of first entry.');
+expect(cells.eq(1).text()).to.equal('Tenacious D','Incorrect artist of first entry.');
+
+expect(cells.eq(3).text()).to.equal('And so you code','Incorrect song of second entry.');
+expect(cells.eq(4).text()).to.equal('Rap Cover','Incorrect artist of second entry.');
+
+expect(cells.eq(6).text()).to.equal('Belzeboss','Incorrect song of third entry.');
+expect(cells.eq(7).text()).to.equal('Tenacious D','Incorrect artist of third entry.');
+
+expect(cells.eq(9).text()).to.equal('Commissar','Incorrect song of foruth entry.');
+expect(cells.eq(10).text()).to.equal('Savatage','Incorrect artist of fifth entry.');

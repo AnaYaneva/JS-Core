@@ -1,0 +1,15 @@
+Planes left:
+- AirForceOne
+- Boeing474
+WashingtonDC
+Arrivals: 450
+Departures: 0
+Planes:
+-- AirForceOne
+-- ATR72
+Madrid
+Arrivals: 300
+Departures: 135
+Planes:
+-- ATR72
+-- Boeing474

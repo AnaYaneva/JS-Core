@@ -1,0 +1,18 @@
+﻿document.body.innerHTML = `<div class="root"></div>`;
+
+let builder = result('.root');
+
+builder.createTable(['Quick Test']);
+builder.fillData([
+    ['<div>power</div>'],
+    ['"Pesho"'],
+    ["'No' - he said!"]
+]);
+
+let table = $('.root table');
+let rows = table.find('tr');
+let cells = rows.find('td');
+
+expect(cells.eq(0).text()).to.equal('<div>power</div>','Element text did not match!');
+expect(cells.eq(2).text()).to.equal('"Pesho"','Element text did not match!');
+expect(cells.eq(4).text()).to.equal("'No' - he said!",'Element text did not match!');

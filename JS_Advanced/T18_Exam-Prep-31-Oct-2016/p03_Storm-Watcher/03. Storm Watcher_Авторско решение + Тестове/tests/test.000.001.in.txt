@@ -1,0 +1,11 @@
+expect(typeof result).to.equal('function', "Couldn't find constructor.");
+expect(result.prototype.hasOwnProperty('toString')).to.equal(true, "Couldn't find toString() method.");
+expect(typeof result.prototype.toString).to.equal('function', "Couldn't find toString() method.");
+
+let report = new result(21, 80, 750, 15);
+
+expect(report.hasOwnProperty('id')).to.equal(true, "Couldn't find id property.");
+expect(report.hasOwnProperty('temperature')).to.equal(true, "Couldn't find temperature property.");
+expect(report.hasOwnProperty('humidity')).to.equal(true, "Couldn't find humidity property.");
+expect(report.hasOwnProperty('pressure')).to.equal(true, "Couldn't find pressure property.");
+expect(report.hasOwnProperty('windSpeed')).to.equal(true, "Couldn't find windSpeed property.");

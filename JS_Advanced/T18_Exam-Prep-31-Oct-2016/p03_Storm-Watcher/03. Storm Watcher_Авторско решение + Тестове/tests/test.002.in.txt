@@ -1,0 +1,8 @@
+let record = new result(19, 80, 690, 30);
+let report = record.toString();
+
+expect(report).to.include('Temperature: 19*C', "Temperature report not correct.");
+expect(report).to.include('Relative Humidity: 80%', "Humidity report not correct.");
+expect(report).to.include('Pressure: 690hpa', "Pressure report not correct.");
+expect(report).to.include('Wind Speed: 30m/s', "Wind Speed report not correct.");
+expect(report).to.include('Weather: Stormy', "Weather report not correct.");

@@ -1,0 +1,25 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="head"></div>`;
+
+let header = new result('Title Bar Problem');
+header.addLink('/', 'Home');
+header.addLink('about', 'About');
+header.addLink('results', 'Results');
+header.addLink('faq', 'FAQ');
+header.appendTo('#head');
+
+let btn = $('#head').find('.button')[0];
+let menu = $('.drawer');
+
+expect(menu.css('display')).to.equal('none', "Menu didn't start hidden.");
+
+let clickEvent = document.createEvent('MouseEvents');
+clickEvent.initEvent('click', true, true);
+
+btn.dispatchEvent(clickEvent);
+
+expect(menu.css('display')).to.equal('block', "Menu wasn't shown after clicking.");
+
+btn.dispatchEvent(clickEvent);
+
+expect(menu.css('display')).to.equal('none', "Menu wasn't hidden after clicking.");

@@ -1,0 +1,17 @@
+<form id="editPostForm" class="submitForm" action="#/edit" method="post">
+    <label>Link URL:</label>
+    <input name="url" type="text"
+           value="{{url}}">
+    <label>Link Title:</label>
+    <input name="title" type="text" value="{{title}}">
+    <label>Link Thumbnail Image (optional):</label>
+    <input name="image" type="text"
+           value="{{imgUrl}}">
+    <label>Comment (optional):</label>
+    {{#if desription}}
+        <textarea name="description">{{desription}}</textarea>
+    {{else}}
+        <textarea name="description">No desc</textarea>
+    {{/if}}
+    input id="btnEditPost" type="submit" value="Edit Post">
+</form>

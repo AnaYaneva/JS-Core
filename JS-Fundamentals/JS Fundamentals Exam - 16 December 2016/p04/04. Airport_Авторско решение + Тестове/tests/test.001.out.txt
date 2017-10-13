@@ -1,0 +1,22 @@
+Planes left:
+- Airbus
+- AirForce
+- AirForcE
+- AirFoRce
+Paris
+Arrivals: 400
+Departures: 0
+Planes:
+-- Airbus
+-- AirForce
+-- AirForcE
+London
+Arrivals: 150
+Departures: 150
+Planes:
+-- Nemibue
+LoNdon
+Arrivals: 130
+Departures: 0
+Planes:
+-- AirFoRce

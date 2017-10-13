@@ -1,0 +1,5 @@
+let record1 = new result(32, 66, 760, 12);
+expect(record1.temperature).to.equal(32, "Temperature not set.");
+expect(record1.humidity).to.equal(66, "Humidity not set.");
+expect(record1.pressure).to.equal(760, "Pressure not set.");
+expect(record1.windSpeed).to.equal(12, "Wind Speed not set.");

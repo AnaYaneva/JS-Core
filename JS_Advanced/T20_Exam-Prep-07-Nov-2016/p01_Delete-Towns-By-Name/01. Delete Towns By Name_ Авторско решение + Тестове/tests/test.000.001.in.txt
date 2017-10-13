@@ -1,0 +1,2 @@
+﻿expect(result.name).to.be.equal('attachEvents',
+            "Function 'attachEvents()' not found.");

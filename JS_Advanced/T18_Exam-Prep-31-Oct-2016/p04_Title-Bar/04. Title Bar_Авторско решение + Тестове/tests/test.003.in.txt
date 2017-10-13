@@ -1,0 +1,17 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="target"></div>`;
+
+let header = new result('Sample Bar');
+header.addLink('hlink1', 'Menu 1');
+header.addLink('hlink2', 'Menu 2');
+header.appendTo('#target');
+
+let output = $('#target').find('header');
+let links = output.find('.menu-link');
+
+expect(output.find('.title').text()).to.equal('Sample Bar', "Element title wasn't correct.");
+expect(links.length).to.equal(2, "Couldn't find correct number of menu elements.");
+expect(links.eq(0).attr('href')).to.equal('hlink1', "First menu item had wrong hyperlink.");
+expect(links.eq(0).text()).to.equal('Menu 1', "First menu item had wrong label.");
+expect(links.eq(1).attr('href')).to.equal('hlink2', "Second menu item had wrong hyperlink.");
+expect(links.eq(1).text()).to.equal('Menu 2', "Second menu item had wrong label.");

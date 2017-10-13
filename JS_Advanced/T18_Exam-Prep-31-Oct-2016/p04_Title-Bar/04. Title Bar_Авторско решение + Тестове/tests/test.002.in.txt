@@ -1,0 +1,15 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="target"></div>`;
+
+let header = new result('Sample Bar');
+header.addLink('hlink1', 'Menu 1');
+header.addLink('hlink2', 'Menu 2');
+header.appendTo('#target');
+
+let output = $('#target').find('header');
+let title = output.find('.header-row');
+
+expect(title.length).to.equal(1, "Couldn't find correct element.");
+expect(title.find('a').length).to.equal(1, "Couldn't find correct element.");
+expect(title.find('span').length).to.equal(1, "Couldn't find correct element.");
+expect(output.find('.drawer').find('nav').length).to.equal(1, "Couldn't find correct element.");

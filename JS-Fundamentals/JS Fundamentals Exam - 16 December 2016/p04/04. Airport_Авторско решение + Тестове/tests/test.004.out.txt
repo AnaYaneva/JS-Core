@@ -1,0 +1,76 @@
+Planes left:
+Sofia
+Arrivals: 450
+Departures: 0
+Planes:
+-- RTA72
+Berlin
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA72
+Haga
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA72
+Monreal
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA72
+Pekin
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA72
+Warshaw
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA72
+Dortmund
+Arrivals: 150
+Departures: 0
+Planes:
+-- RTA72
+London
+Arrivals: 140
+Departures: 0
+Planes:
+-- RTA72
+Brussels
+Arrivals: 0
+Departures: 240
+Planes:
+-- RTA72
+Lisbon
+Arrivals: 0
+Departures: 240
+Planes:
+-- RTA72
+Montana
+Arrivals: 0
+Departures: 243
+Planes:
+-- RTA72
+NewYork
+Arrivals: 0
+Departures: 201
+Planes:
+-- RTA72
+Otava
+Arrivals: 0
+Departures: 402
+Planes:
+-- RTA72
+Riga
+Arrivals: 0
+Departures: 201
+Planes:
+-- RTA72
+Tokyo
+Arrivals: 0
+Departures: 201
+Planes:
+-- RTA72

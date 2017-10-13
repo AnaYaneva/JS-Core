@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+
+    <script src="app.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script id="list-template" type="text/x-handlebars-template">
+    <ul>
+        {{#each items}}
+        <li>{{name: }} {{email}}</li>
+        {{/each}}
+    </ul>
+</script>
+
+<script>
+    let container = document.getElementById('app');
+    let source = document.getElementById('list-template').innerHTML;
+    let template = Handlebars.compile(source);
+
+
+    let contacts = {
+        items: [
+            {name: "Ivan Ivanov", email: "xqxq@abv.bg"},
+            {name: "Ivan Ivanov", email: "xqxq@abv.bg"},
+            {name: "Ivan Ivanov", email: "xqxq@abv.bg"}
+        ]};
+    container.innerHTML = template(contacts);
+</script>
+</body>
+</html>

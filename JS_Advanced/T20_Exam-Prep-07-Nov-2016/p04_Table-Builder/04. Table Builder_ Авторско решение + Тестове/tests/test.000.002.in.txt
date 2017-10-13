@@ -1,0 +1,28 @@
+﻿document.body.innerHTML = `<div id="main"></div>`;
+
+let builder = result('#main');
+
+builder.createTable(['Name','Town']);
+builder.fillData([
+    ['Maria', 'Sofia'],
+    ['Kiril', 'Varna'],
+    ['Ani <new>', 'Ruse'],
+]);
+
+let table = $('#main>table');
+let rows = table.find('tr');
+let headings = rows.eq(0).find('th');
+let cells = rows.find('td');
+
+expect(headings.eq(0).text()).to.equal('Name','First heading text did not match.');
+expect(headings.eq(1).text()).to.equal('Town','Second heading text did not match.');
+expect(headings.eq(2).text()).to.equal('Action','Second heading text did not match.');
+
+expect(cells.eq(0).text()).to.equal('Maria','Incorrect name of first entry.');
+expect(cells.eq(1).text()).to.equal('Sofia','Incorrect town of first entry.');
+
+expect(cells.eq(3).text()).to.equal('Kiril','Incorrect name of second entry.');
+expect(cells.eq(4).text()).to.equal('Varna','Incorrect town of second entry.');
+
+expect(cells.eq(6).text()).to.equal('Ani <new>','Incorrect name of third entry.');
+expect(cells.eq(7).text()).to.equal('Ruse','Incorrect town of third entry.');

@@ -1,0 +1,38 @@
+﻿document.body.innerHTML = `<div class="root"></div>`;
+
+let builder = result('.root');
+
+builder.createTable(['Band','Fortune','Records Sold','Style']);
+builder.fillData([
+    ['AC/DC', 'Filthy rich', 200000000,'Rock'],
+    ['Savatage', 'Small', 'Unknown','Heavy Metal'],
+    ['Metallica','A lot',110000000,'Heavy Metal']
+]);
+
+let table = $('.root table');
+let rows = table.find('tr');
+let headings = rows.eq(0).find('th');
+let cells = rows.find('td');
+let numberOfCells = cells.length;
+let numberOfRows = rows.length;
+
+let button1 = cells.eq(4).find('button');
+let button2 = cells.eq(9).find('button');
+let button3 = cells.eq(14).find('button');
+
+button2.trigger('click');
+rows = table.find('tr');
+cells = rows.find('td');
+expect(cells).to.have.lengthOf(numberOfCells - 5, "Incorrect number of elements deleted.");
+expect(rows).to.have.lengthOf(numberOfRows - 1, 'Incorrect number of rows deleted.');
+
+expect(cells.eq(0).text()).to.equal('AC/DC','Incorrect band of first entry.');
+expect(cells.eq(1).text()).to.equal('Filthy rich','Incorrect fortune of first entry.');
+expect(cells.eq(2).text()).to.equal('200000000','Incorrect records sold of first entry.');
+expect(cells.eq(3).text()).to.equal('Rock','Incorrect style of first entry.');
+
+expect(cells.eq(5).text()).to.equal('Metallica','Incorrect band of third entry.');
+expect(cells.eq(6).text()).to.equal('A lot','Incorrect fortune of third entry.');
+expect(cells.eq(7).text()).to.equal('110000000','Incorrect records sold of third entry.');
+expect(cells.eq(8).text()).to.equal('Heavy Metal','Incorrect style of third entry.');
+

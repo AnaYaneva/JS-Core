@@ -1,0 +1,17 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="head"></div>`;
+
+let header = new result('Title Bar Problem');
+header.addLink('/', 'Home');
+header.addLink('about', 'About');
+header.addLink('results', 'Results');
+header.addLink('faq', 'FAQ');
+header.appendTo('#head');
+
+let output = $('#head').find('header');
+let title = output.find('.header-row');
+
+expect(title.length).to.equal(1, "Couldn't find correct element.");
+expect(title.find('a').length).to.equal(1, "Couldn't find correct element.");
+expect(title.find('span').length).to.equal(1, "Couldn't find correct element.");
+expect(output.find('.drawer').find('nav').length).to.equal(1, "Couldn't find correct element.");

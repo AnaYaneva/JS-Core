@@ -1,0 +1,12 @@
+﻿document.body.innerHTML = `<div class="root"></div>`;
+
+let builder = result('.root');
+
+builder.createTable(['Song','Artist']);
+
+let table = $('.root table');
+let rows = table.find('tr');
+let headings = rows.eq(0).find('th');
+
+expect(headings.eq(0).text()).to.equal('Song','First heading text did not match.');
+expect(headings.eq(1).text()).to.equal('Artist','Second heading text did not match.');

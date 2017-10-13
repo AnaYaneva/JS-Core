@@ -1,0 +1,5 @@
+﻿let TrainingCourse = result;
+let test = new TrainingCourse('Test', 'Tester');
+
+expect(test.trainer).to.be.equal('Tester',
+            "'TrainingCourse tester' not initialized correctly");

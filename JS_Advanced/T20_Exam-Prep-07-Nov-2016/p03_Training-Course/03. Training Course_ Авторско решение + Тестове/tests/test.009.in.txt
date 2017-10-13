@@ -1,0 +1,5 @@
+﻿let TrainingCourse = result;
+let test = new TrainingCourse("PHP", "Royal");
+
+expect(test.toString()).to.be.equal('Course "PHP" by Royal\n',
+            "'TrainingCourse toString()' function does not return correct results");

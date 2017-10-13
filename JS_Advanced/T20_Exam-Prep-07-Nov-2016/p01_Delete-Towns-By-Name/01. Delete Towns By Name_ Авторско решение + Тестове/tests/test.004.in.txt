@@ -1,0 +1,19 @@
+﻿document.body.innerHTML = `<div>Towns</div>
+        <select id="towns" size="4">
+            <option>Sofia</option>
+            <option>Varna</option>
+            <option>Pleven</option>
+            </select>
+
+            <div>
+            <input type="text" id="townName"/>
+            <button id="btnDelete">Delete</button>
+            </div>
+            <div id="result"></div>`;
+
+result();
+$("#townName").val("Sofi");
+$("#btnDelete").click();
+let resultDiv = $("#result");
+expect(resultDiv.text()).to.be.equal("Sofi not found.",
+            "Invalid result value!");

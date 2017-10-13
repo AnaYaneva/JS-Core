@@ -1,0 +1,6 @@
+RTA72 London -10 land
+RTA#72 Brussels -110 depart
+RTA7!2 Warshaw 350 land
+RTA72 Riga -201 depart
+rta72 riga -13 land
+rta Riga -200 depart

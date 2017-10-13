@@ -1,0 +1,23 @@
+Planes left:
+- RTA7!2
+- rta72
+Warshaw
+Arrivals: 350
+Departures: 0
+Planes:
+-- RTA7!2
+Riga
+Arrivals: 0
+Departures: -201
+Planes:
+-- RTA72
+London
+Arrivals: -10
+Departures: 0
+Planes:
+-- RTA72
+riga
+Arrivals: -13
+Departures: 0
+Planes:
+-- rta72

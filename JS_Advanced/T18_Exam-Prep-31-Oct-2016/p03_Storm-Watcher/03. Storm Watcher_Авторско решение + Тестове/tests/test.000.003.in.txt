@@ -1,0 +1,19 @@
+let record1 = new result(32, 66, 760, 12);
+let report1 = record1.toString();
+
+let record2 = new result(10, 40, 680, 30);
+let report2 = record2.toString();
+
+expect(report1).to.include('Reading ID: 0', "Report ID not correct.");
+expect(report1).to.include('Temperature: 32*C', "Temperature report not correct.");
+expect(report1).to.include('Relative Humidity: 66%', "Humidity report not correct.");
+expect(report1).to.include('Pressure: 760hpa', "Pressure report not correct.");
+expect(report1).to.include('Wind Speed: 12m/s', "Wind Speed report not correct.");
+expect(report1).to.include('Weather: Not stormy', "Weather report not correct.");
+
+expect(report2).to.include('Reading ID: 1', "Report ID not correct.");
+expect(report2).to.include('Temperature: 10*C', "Temperature report not correct.");
+expect(report2).to.include('Relative Humidity: 40%', "Humidity report not correct.");
+expect(report2).to.include('Pressure: 680hpa', "Pressure report not correct.");
+expect(report2).to.include('Wind Speed: 30m/s', "Wind Speed report not correct.");
+expect(report2).to.include('Weather: Stormy', "Weather report not correct.");

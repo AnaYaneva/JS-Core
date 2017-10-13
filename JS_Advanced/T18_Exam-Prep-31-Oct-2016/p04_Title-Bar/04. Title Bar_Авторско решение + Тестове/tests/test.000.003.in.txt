@@ -1,0 +1,23 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="head"></div>`;
+
+let header = new result('Title Bar Problem');
+header.addLink('/', 'Home');
+header.addLink('about', 'About');
+header.addLink('results', 'Results');
+header.addLink('faq', 'FAQ');
+header.appendTo('#head');
+
+let output = $('#head').find('header');
+let links = output.find('.menu-link');
+
+expect(output.find('.title').text()).to.equal('Title Bar Problem', "Element title wasn't correct.");
+expect(links.length).to.equal(4, "Couldn't find correct number of menu elements.");
+expect(links.eq(0).attr('href')).to.equal('/', "First menu item had wrong hyperlink.");
+expect(links.eq(0).text()).to.equal('Home', "First menu item had wrong label.");
+expect(links.eq(1).attr('href')).to.equal('about', "Second menu item had wrong hyperlink.");
+expect(links.eq(1).text()).to.equal('About', "Second menu item had wrong label.");
+expect(links.eq(2).attr('href')).to.equal('results', "Third menu item had wrong hyperlink.");
+expect(links.eq(2).text()).to.equal('Results', "Third menu item had wrong label.");
+expect(links.eq(3).attr('href')).to.equal('faq', "Fourth menu item had wrong hyperlink.");
+expect(links.eq(3).text()).to.equal('FAQ', "Fourth menu item had wrong label.");

@@ -1,0 +1,16 @@
+document.head.innerHTML = `<style>.drawer { display: none; }</style>`;
+document.body.innerHTML = `<div id="target"></div>`;
+
+let header = new result('Sample Bar');
+header.addLink('hlink1', 'Menu 1');
+header.addLink('hlink2', 'Menu 2');
+header.addLink('hlink3', 'Menu 3');
+header.addLink('hlink4', 'Menu 4');
+header.addLink('hlink5', 'Menu 5');
+header.addLink('hlink6', 'Menu 6');
+header.appendTo('#target');
+
+let output = $('#target').find('header');
+let links = output.find('.menu-link');
+
+expect(links.length).to.equal(6, "Couldn't find correct number of menu elements.");

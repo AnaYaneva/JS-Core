@@ -1,0 +1,13 @@
+let records = [];
+
+for (let i = 0; i < 100; i++) {
+    records.push((new result(25, 60, 780, 6)).toString());
+}
+
+for (let i = 0; i < 100; i++) {
+    for (let j = i + 1; j < 100; j++) {
+        let id1 = records[i].match(/Reading ID: (\d+)/)[1];
+        let id2 = records[j].match(/Reading ID: (\d+)/)[1];
+        expect(id1).to.not.equal(id2, "Duplicate IDs detected.");
+    }
+}

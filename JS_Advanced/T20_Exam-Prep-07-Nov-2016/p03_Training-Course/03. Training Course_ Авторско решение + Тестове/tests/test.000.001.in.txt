@@ -1,0 +1,4 @@
+﻿let TrainingCourse = result;
+
+expect(TrainingCourse.length).to.be.equal(2,
+            "'TrainingCourse constructor' should accept 2 parameters");

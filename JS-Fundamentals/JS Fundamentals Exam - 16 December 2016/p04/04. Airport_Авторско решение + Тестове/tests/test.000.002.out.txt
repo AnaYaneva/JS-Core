@@ -1,0 +1,12 @@
+Planes left:
+- Airbus
+Paris
+Arrivals: 356
+Departures: 213
+Planes:
+-- Airbus
+Ljubljana
+Arrivals: 250
+Departures: 0
+Planes:
+-- Airbus

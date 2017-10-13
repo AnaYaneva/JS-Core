@@ -1,0 +1,18 @@
+﻿list = (function(){
+    let data = [];
+    return {
+        add: function(item) {
+            data.push(item);
+        },
+        delete: function(index) {
+            if (Number.isInteger(index)) {
+                return data[data.length-1];
+            } else {
+                return undefined;
+            }
+        },
+        toString: function() {
+            return data.join(", ");
+        }
+    };
+})();

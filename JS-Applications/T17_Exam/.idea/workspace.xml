@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf9d3cf5-cef6-4eda-82b2-2a8fb82ae846" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeentIt_Скелет/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeentIt_Скелет/models/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#11016#11814#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>isAuthor</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/models/requester.js" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/models/auth.js" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/footer.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/home.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/home/home.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/header.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/home/homePage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/models/notifications.js" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/submit/submit.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/submit/submitPage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/style/notifications.css" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/sidebar.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/catalog/catalog.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/index.html" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/create/createPage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/create/create.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/edit/editPage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/edit/edit.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/catalog/catalogPage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/posts/post.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/catalog/catalogPost.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/posts/postsPage.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/comments/comment.hbs" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/models/postService.js" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/models/app.js" />
+        <option value="$PROJECT_DIR$/01. SeentIt_Скелет/templates/comments/commentsPage.hbs" />
+        <option value="$PROJECT_DIR$/1.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="700" />
+    <option name="width" value="841" />
+    <option name="height" value="850" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeentIt_Скелет" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="T17_Exam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SeentIt_Скелет" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SoftUni\JS Applications\JS-Applications\T17_Exam\01. SeentIt_Скелет\models" />
+      <recent name="D:\SoftUni\JS Applications\JS-Applications\T17_Exam\01. SeentIt_Скелет\templates" />
+      <recent name="D:\SoftUni\JS Applications\JS-Applications\T17_Exam\01. SeentIt_Скелет\templates\home" />
+      <recent name="D:\SoftUni\JS Applications\JS-Applications\T17_Exam\01. SeentIt_Скелет" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SoftUni\JS Applications\JS-Applications\T17_Exam\01. SeentIt_Скелет" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf9d3cf5-cef6-4eda-82b2-2a8fb82ae846" name="Default" comment="" />
+      <created>1503164557244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503164557244</updated>
+      <workItem from="1503164559937" duration="18000" />
+      <workItem from="1503234177640" duration="19599000" />
+      <workItem from="1503254080260" duration="13000" />
+      <workItem from="1503501421215" duration="788000" />
+      <workItem from="1503995222592" duration="350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20768000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="700" y="0" width="841" height="850" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2241594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/footer.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/templates/common/header.hbs" />
+    <entry file="file://$PROJECT_DIR$/Messages_Skeleton/messages.html" />
+    <entry file="file://$PROJECT_DIR$/1/templates/home/home.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/templates/cart/cartTable.hbs" />
+    <entry file="file://$PROJECT_DIR$/Messages_Skeleton1/models/auth.js" />
+    <entry file="file://$PROJECT_DIR$/1/templates/home/homePage.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/home/home.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/header.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/models/formValidation.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/models/notifications.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/style/notifications.css" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/common/sidebar.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/home/homePage.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/templates/shop/shopTable.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/market.html" />
+    <entry file="file://$PROJECT_DIR$/Messages_Skeleton/models/app.js" />
+    <entry file="file://$PROJECT_DIR$/Messages_Skeleton1/models/app.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/models/auth.js" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/create/createPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/create/createForm.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/create/createPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/create/create.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/edit/editPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/edit/editForm.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/edit/editPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/about/about.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/catalog/teamControls.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/catalog/details.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/templates/catalog/team.hbs" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/scripts/models/teamsService.js" />
+    <entry file="file://$PROJECT_DIR$/Team-Manager-Skeleton/scripts/app.js" />
+    <entry file="file://$PROJECT_DIR$/1/templates/cart/cartProduct.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/templates/shop/shopProduct.hbs" />
+    <entry file="file://$PROJECT_DIR$/1/models/app.js" />
+    <entry file="file://$PROJECT_DIR$/1/models/marketService.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/models/requester.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/catalog/catalogPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/catalog/catalogPost.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет1/index.html" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/posts/post.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/posts/postsPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/edit/edit.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/index.html" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/comments/comment.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/templates/comments/commentsPage.hbs" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/models/app.js" />
+    <entry file="file://$PROJECT_DIR$/01. SeentIt_Скелет/models/postService.js" />
+    <entry file="file://$PROJECT_DIR$/SeentIt_Скелет/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeentIt_Скелет/models/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#11016#11814#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

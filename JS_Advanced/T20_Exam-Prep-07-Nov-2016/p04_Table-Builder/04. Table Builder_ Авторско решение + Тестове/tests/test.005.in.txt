@@ -1,0 +1,10 @@
+﻿document.body.innerHTML = `<div><p>Just a paragraph don't mind me</p></div>`;
+
+let builder = result('div');
+
+builder.createTable(['Just','A','Test']);
+
+let paragraph = $("div p");
+expect(paragraph).to.have.lengthOf(0,"Table did not delete previous elements");
+
+

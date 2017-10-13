@@ -1,0 +1,6 @@
+﻿let TrainingCourse = result;
+let test = new TrainingCourse('PHP', 'Royal');
+test.addTopic('Strings', new Date(2017, 10, 10, 18, 0));
+
+expect(test.firstTopic.title).to.be.equal('Strings',
+            "'TrainingCourse addTopic' function does not work properly");

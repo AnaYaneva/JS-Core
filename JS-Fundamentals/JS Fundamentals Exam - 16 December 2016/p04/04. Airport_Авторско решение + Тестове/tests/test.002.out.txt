@@ -1,0 +1,61 @@
+Planes left:
+- Airbus1
+- Airbus10
+- Airbus2
+- Airbus3
+- Airbus4
+- Airbus5
+- Airbus6
+- Airbus7
+- Airbus8
+- Airbus9
+Aljir
+Arrivals: 1000
+Departures: 0
+Planes:
+-- Airbus10
+Rabat
+Arrivals: 900
+Departures: 0
+Planes:
+-- Airbus9
+Athenes
+Arrivals: 800
+Departures: 0
+Planes:
+-- Airbus8
+Belgrad
+Arrivals: 700
+Departures: 0
+Planes:
+-- Airbus7
+Sofia
+Arrivals: 600
+Departures: 0
+Planes:
+-- Airbus6
+Moscow
+Arrivals: 500
+Departures: 0
+Planes:
+-- Airbus5
+Lisbon
+Arrivals: 400
+Departures: 0
+Planes:
+-- Airbus4
+Madrid
+Arrivals: 300
+Departures: 0
+Planes:
+-- Airbus3
+Paris
+Arrivals: 200
+Departures: 0
+Planes:
+-- Airbus2
+London1
+Arrivals: 100
+Departures: 0
+Planes:
+-- Airbus1

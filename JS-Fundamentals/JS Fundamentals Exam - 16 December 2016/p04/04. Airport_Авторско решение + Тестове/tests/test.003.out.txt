@@ -1,0 +1,11 @@
+Planes left:
+London
+Arrivals: 100
+Departures: 0
+Planes:
+-- Airbus
+Paris
+Arrivals: 0
+Departures: 200
+Planes:
+-- Airbus

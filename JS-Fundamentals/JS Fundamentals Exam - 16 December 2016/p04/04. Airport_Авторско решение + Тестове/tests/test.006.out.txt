@@ -1,0 +1,139 @@
+Planes left:
+- Airbus0
+- Airbus1
+- Airbus10
+- Airbus11
+- Airbus12
+- Airbus13
+- Airbus14
+- Airbus15
+- Airbus16
+- Airbus17
+- Airbus18
+- Airbus19
+- Airbus2
+- Airbus20
+- Airbus21
+- Airbus22
+- Airbus23
+- Airbus24
+- Airbus25
+- Airbus26
+- Airbus27
+- Airbus28
+- Airbus29
+- Airbus3
+- Airbus30
+- Airbus31
+- Airbus32
+- Airbus33
+- Airbus34
+- Airbus35
+- Airbus36
+- Airbus37
+- Airbus38
+- Airbus39
+- Airbus4
+- Airbus40
+- Airbus41
+- Airbus42
+- Airbus43
+- Airbus44
+- Airbus45
+- Airbus46
+- Airbus47
+- Airbus48
+- Airbus5
+- Airbus6
+- Airbus7
+- Airbus8
+- Airbus9
+LasVegas
+Arrivals: 200
+Departures: 0
+Planes:
+-- Airbus19
+-- Airbus29
+-- Airbus39
+-- Airbus9
+London
+Arrivals: 199
+Departures: 0
+Planes:
+-- Airbus0
+-- Airbus10
+-- Airbus20
+-- Airbus30
+-- Airbus40
+AbuDhabi
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus13
+-- Airbus23
+-- Airbus3
+-- Airbus33
+-- Airbus43
+Amsterdam
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus1
+-- Airbus11
+-- Airbus21
+-- Airbus31
+-- Airbus41
+Bukurest
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus18
+-- Airbus28
+-- Airbus38
+-- Airbus48
+-- Airbus8
+Madrid
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus17
+-- Airbus27
+-- Airbus37
+-- Airbus47
+-- Airbus7
+Monaco
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus14
+-- Airbus24
+-- Airbus34
+-- Airbus4
+-- Airbus44
+NewYork
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus15
+-- Airbus25
+-- Airbus35
+-- Airbus45
+-- Airbus5
+Paris
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus16
+-- Airbus26
+-- Airbus36
+-- Airbus46
+-- Airbus6
+Tokyo
+Arrivals: 0
+Departures: 0
+Planes:
+-- Airbus12
+-- Airbus2
+-- Airbus22
+-- Airbus32
+-- Airbus42

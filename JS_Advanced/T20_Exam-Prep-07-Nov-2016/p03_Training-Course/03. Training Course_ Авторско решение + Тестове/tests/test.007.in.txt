@@ -1,0 +1,8 @@
+﻿let TrainingCourse = result;
+let test = new TrainingCourse("PHP", "Royal");
+test.addTopic('Syntax', new Date(2017, 10, 12, 18, 0));
+test.addTopic('Exam prep', new Date(2017, 10, 14, 18, 0));
+test.addTopic('Intro', new Date(2017, 10, 10, 18, 0));
+
+expect(test.lastTopic).to.not.equal(undefined,
+            "'TrainingCourse lastTopic' property does not return correct values");

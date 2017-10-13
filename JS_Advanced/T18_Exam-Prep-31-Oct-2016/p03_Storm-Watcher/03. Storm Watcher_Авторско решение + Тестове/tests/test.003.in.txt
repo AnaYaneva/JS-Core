@@ -1,0 +1,35 @@
+let record = new result(20, 80, 690, 30);
+let report = record.toString();
+
+expect(report).to.include('Temperature: 20*C', "Temperature report not correct.");
+expect(report).to.include('Relative Humidity: 80%', "Humidity report not correct.");
+expect(report).to.include('Pressure: 690hpa', "Pressure report not correct.");
+expect(report).to.include('Wind Speed: 30m/s', "Wind Speed report not correct.");
+expect(report).to.include('Weather: Not stormy', "Weather report not correct.");
+
+record = new result(19, 80, 700, 30);
+report = record.toString();
+
+expect(report).to.include('Temperature: 19*C', "Temperature report not correct.");
+expect(report).to.include('Relative Humidity: 80%', "Humidity report not correct.");
+expect(report).to.include('Pressure: 700hpa', "Pressure report not correct.");
+expect(report).to.include('Wind Speed: 30m/s', "Wind Speed report not correct.");
+expect(report).to.include('Weather: Not stormy', "Weather report not correct.");
+
+record = new result(19, 80, 900, 30);
+report = record.toString();
+
+expect(report).to.include('Temperature: 19*C', "Temperature report not correct.");
+expect(report).to.include('Relative Humidity: 80%', "Humidity report not correct.");
+expect(report).to.include('Pressure: 900hpa', "Pressure report not correct.");
+expect(report).to.include('Wind Speed: 30m/s', "Wind Speed report not correct.");
+expect(report).to.include('Weather: Not stormy', "Weather report not correct.");
+
+record = new result(19, 80, 690, 25);
+report = record.toString();
+
+expect(report).to.include('Temperature: 19*C', "Temperature report not correct.");
+expect(report).to.include('Relative Humidity: 80%', "Humidity report not correct.");
+expect(report).to.include('Pressure: 690hpa', "Pressure report not correct.");
+expect(report).to.include('Wind Speed: 25m/s', "Wind Speed report not correct.");
+expect(report).to.include('Weather: Not stormy', "Weather report not correct.");

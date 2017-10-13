@@ -1,0 +1,19 @@
+﻿document.body.innerHTML = `<div id="main"></div>`;
+
+let builder = result('#main');
+
+builder.createTable(['Name','Town']);
+builder.fillData([
+    ['Maria', 'Sofia'],
+    ['Kiril', 'Varna'],
+    ['Ani <new>', 'Ruse'],
+]);
+
+let table = $('#main>table');
+let rows = table.find('tr');
+let headings = rows.eq(0).find('th');
+let cells = rows.find('td');
+expect(table).to.exist;
+expect(rows).to.have.lengthOf(4,"Incorrect amount of rows");
+expect(headings).to.have.lengthOf(3,"Incorrect amount of headings in first row");
+expect(cells).to.have.lengthOf(9,"Incorrect amount of entries in the table");

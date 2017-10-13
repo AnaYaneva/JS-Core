@@ -1,0 +1,14 @@
+﻿list = (function () {
+    let data = [];
+    return {
+        add: function (item) {
+            data.push(item);
+        },
+        delete: function (index) {
+            return data.splice(0,1);
+        },
+        toString: function () {
+            return data.join(", ");
+        }
+    };
+})();

@@ -1,0 +1,7 @@
+expect(typeof result).to.equal('function', "Couldn't find constructor.");
+expect(result.prototype.hasOwnProperty('addLink')).to.equal(true, "Couldn't find addLink() function.");
+expect(result.prototype.hasOwnProperty('appendTo')).to.equal(true, "Couldn't find appendTo() function.");
+
+let header = new result('Sample');
+
+expect(typeof header).to.equal('object');

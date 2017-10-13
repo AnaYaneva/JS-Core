@@ -1,0 +1,1 @@
+Now lets test.all         ; the     3.14     : functionality! What about trimming "  Trim me please       "!
